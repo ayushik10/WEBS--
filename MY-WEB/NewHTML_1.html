@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: aliceblue;
+            font-family: 'Courier New';
+            font-size: 70px;
+            margin-bottom: 0px;
+        }
+        h4{
+            color: aliceblue;
+            font-family:'Segoe UI';
+            margin-top: 0px;
+        }
+        button{
+            display: block;
+            margin: auto;
+            background-color: rgb(133, 133, 133);
+            color: wheat;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 25px;
+            border: 2px black dotted;
+            border-radius: 20px;
+            transition: 0.03s;
+        }
+        button:hover{
+            background-color: wheat;
+            color: rgb(133, 133, 133);
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(133, 133, 133);
+            color: wheat;
+        }
+        a:hover{
+            color: rgb(133, 133, 133);
+        }
+
+        .box {
+            background-color: rgba(206, 247, 247, 0.329);
+            display: block;
+            /* margin: auto; */
+            max-width: 70%;
+            min-width: 30%;
+            padding: 20px 35px;
+            border: solid 3px rgba(255, 255, 255, 0.296);
+            border-radius: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .box h2{
+            margin-top: 0px;
+            color:rgb(236, 220, 220);
+            font-size: 30px;
+            font-family:'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+        #two {
+            display: flex;
+            /* flex-direction: column; */
+        }
+        .subbox {
+           
+            background-color: rgba(134, 255, 255, 0.1);
+            display: block;
+            /* margin: auto; */
+            width: 20%;
+            padding: 20px 35px;
+            border: solid 3px rgba(255, 255, 255, 0.296);
+            border-radius: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subbox h3 {
+            color: rgb(202, 202, 202);
+            /* margin-bottom: 25px; */
+        }
+
+        #bx2 {
+            display: flex;
+            margin-top: 25px;
+            overflow-wrap: normal;
+        }
+
+        .subbox:hover {
+            background-color: rgba(134, 255, 255, 0.368);
+            border: solid 3px rgba(255, 255, 255, 0.735);
+            width: 22%;
+            transition: 0.01s;
+        }
+
+        .subbox:hover h3 {
+            text-decoration: underline;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body background="https://cdn.wallpapersafari.com/47/23/JhH160.jpg">
+    
+    <h1 align="center">CYBERANYA</h1>
+    <h4 align="center">The Annual Technical Fest</h3>
+
+        <a href=https://geekblower.github.io/Cyberanya/pages/registration.html><button>Register Now</button></a>
+        
+        <div class="box" style="margin: 25px auto 10px;">
+            <h2>About Event</h2>
+            <p>This annual tech extravaganza is set to be the biggest event of BRABU. We invite computer science students from all colleges and streams to dive into a world of learning and fun. Packed with workshops, competitions, and oppurtunities to connect with industry pros, it will be a gateway to becoming a job-ready programmer.</p>
+        </div>
+
+        <div id="two">
+            <div class="box" style="max-width: 30%; margin-left: auto; margin-right: 10px;">
+                <h2>Where</h2>
+                <p>Seminar Hall, LND College <br>Hospital Chowk, Motihari</p>
+            </div>
+    
+            <div class="box" style="max-width: 30%; margin-right: auto; margin-left: 10px;">
+                <h2>When</h2>
+                <p>Friday to Saturday<br>15-16 December</p>
+            </div>  
+        </div>
+        
+        <div class="box" style="margin: 10px auto;">
+            <h2>Event Speakers</h2>
+            
+            <div id="bx2">
+                <div class="subbox" style="margin: 10px auto">
+                    <h3>Dr. Arun Kumar</h3>
+                    <p>Principal of Lakshmi Narain Dubey College, Motihari!</p>
+                </div>
+                <div class="subbox" style="margin: 10px auto">
+                    <h3>Dr. Arun Kumar</h3>
+                    <p>Principal of Lakshmi Narain Dubey College, Motihari!</p>
+                </div>
+                <div class="subbox" style="margin: 10px auto">
+                    <h3>Dr. Arun Kumar</h3>
+                    <p>Principal of Lakshmi Narain Dubey College, Motihari!</p>
+                </div>
+            </div>
+        </div>
+        
+
+</body>
+</html>
